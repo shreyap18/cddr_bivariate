@@ -904,5 +904,4 @@ xlab <- "Sample Sizes"
 combined_gauss_small 
 grid::grid.draw(grid::textGrob(ylab, x = 0.02, rot = 90))
 grid::grid.draw(grid::textGrob(xlab, x = 0.53, y = 0.03))
-
 ggsave(path = main_dir, "gauss_plot_n400.png")
